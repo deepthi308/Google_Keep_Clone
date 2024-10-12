@@ -1,0 +1,57 @@
+.create-area {
+  flex: 3;
+  width: 50%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0rem 0rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+input {
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0rem 0.8rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  resize: none;
+  padding: 0rem 0.8rem;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+
+.add-button {
+  position: absolute;
+  font-size: 1rem !important;
+  width: 2.2rem !important;
+  height: 2rem !important;
+  box-shadow: none;
+  bottom: -2rem !important;
+  left: 88%;
+  background-color: #f5ba13 !important;
+  color: #fff !important;
+}

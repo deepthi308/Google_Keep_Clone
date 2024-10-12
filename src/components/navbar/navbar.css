@@ -1,0 +1,13 @@
+.nav-bar {
+  height: 4rem;
+  padding: 1rem 2rem;
+  background-color: #f5ba13;
+  box-shadow: 0rem 0rem 0.1rem rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  cursor: pointer;
+}
